@@ -3,14 +3,7 @@ import java.util.*;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
-
-
-
-
-
 public class Main {
-
-    
 
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException, InterruptedException{
         Random random = new Random();
@@ -108,7 +101,6 @@ public class Main {
                     if (menu == 1) {
                         pick = Naruto;
                         AudioFile.AudioSorted("Audio\\Naruto\\Naruto.wav");
-                        // Ninja.AudioSorted("Audio\\Naruto\\Naruto.wav");
                     }
                     else if (menu == 2) {
                         pick = Sasuke;
